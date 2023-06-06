@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Richest People</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3da1a747b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <form id="form">
+      <label for="number">Enter a number (from 1 to 400)
+        <input type="number" id="number" min="1" max="400">
+      </label>
+      <button id="button" class="check-btn">Apply</button>
+    </form>
+
+    <h1>Richest People</h1>
+    <p>Drag and drop the items into their corresponding spots</p>
+
+    <ul class="draggable-list" id="draggable-list">
+      <!-- Result here  -->
+    </ul>
+
+    <button id="check" class="check-btn" disabled>Check order</button>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
